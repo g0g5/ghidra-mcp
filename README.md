@@ -29,7 +29,8 @@ A typical MCP configuration looks like this:
         "ghidra-mcp",
         "--ghidra-server",
         "http://127.0.0.1:8080/"
-      ]
+      ],
+      "enabled": true
     }
   }
 }

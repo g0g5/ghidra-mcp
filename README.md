@@ -9,7 +9,7 @@ All Python source code comes from [LaurieWired/GhidraMCP](https://github.com/Lau
 Install from GitHub with `uv tool install`:
 
 ```bash
-uv tool install ghidra-mcp --from https://github.com/g0g5/ghidra-mcp
+uv tool install ghidra-mcp --from git+https://github.com/g0g5/ghidra-mcp.git
 ```
 
 Note: this project only includes the Python bridge. It does not include the MCP server plugin for Ghidra. Follow the instructions in the original [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) repository to install and enable the Ghidra plugin.
